@@ -1,0 +1,1256 @@
+
+
+
+
+/*** 
+=============================================
+    Causes Style1 Area Css
+=============================================
+***/
+.causes-style1-area{
+    position: relative;
+    display: block;
+    background: #eef1f7;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+.causes-style1-area_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.causes-style1_image-box{
+    position: relative;
+    display: block;
+    padding-top: 25px;
+    max-width: 520px;
+    width: 100%;
+}
+.causes-style1_image-box .shape{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.causes-style1_image-box .main{
+    position: relative;
+    display: block;
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.causes-style1_image-box .main img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.causes-style1_image-box .main::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 10;
+}
+.causes-style1_image-box:hover .main::before{
+    -webkit-animation: circle .75s;
+    animation: circle .9s;    
+}
+
+.causes-style1_image2 {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 2;
+}
+.causes-style1_image2:before{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    bottom: -1px;
+    right: -1px;
+    border: 10px solid #eef1f7;
+    border-radius: 50%;
+    content: "";
+    z-index: 1;
+}
+.causes-style1_image2 img{
+    border-radius: 50%;
+    transition: all 3500ms ease;
+}
+.causes-style1_image-box:hover .causes-style1_image2 img{
+    transform: rotate(360deg);
+}
+
+.causes-style1_image3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+}
+.causes-style1_image3 img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.causes-style1_image4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.causes-style1_image4 img{
+    width: 100%;
+    border-radius: 50%;
+    transition: all 3500ms ease;
+}
+.causes-style1_image-box:hover .causes-style1_image4 img{
+    transform: scale(1.5) rotate(2deg);
+}
+
+
+.causes-style1_content-box{
+    position: relative;
+    display: block;
+    padding-left: 15px;
+}
+.causes-style1_content-box .sec-title{
+    padding-bottom: 23px;
+}
+.causes-style1_content-box .text-box{
+    position: relative;
+    display: block;
+    padding-bottom: 26px;
+}
+
+
+.progress-levels{
+    position: relative;
+    display: block;
+}
+.progress-levels .progress-box {
+    position: relative;
+    display: block;
+}
+.progress-levels .progress-box .inner {
+    position: relative;
+    display: block;
+    padding-right: 190px;
+}
+.progress-levels .progress-box .bar{
+    position: relative;
+    display: block;
+}
+.progress-levels .progress-box .bar .bar-innner{
+	position: relative;
+	width: 100%;
+    height: 10px;	
+	background: #dddddd;
+    border-radius: 10px;
+}
+
+
+.progress-levels .progress-box .bar .bar-fill{
+	position:absolute;
+	top: 0%;
+	left: 0px;
+    bottom: 0%;
+	width: 0px;
+	height: 10px;
+    border-radius: 10px;
+    background: var(--thm-color-2);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	transition: all 2000ms ease 300ms;
+}
+.progress-levels .progress-box .bar .bar-fill:before{
+    content: "";
+    position: absolute;
+    top: -7px;
+    right: 0;
+    bottom: -7px;
+    width: 1px;
+    background: var(--thm-color-2);
+}
+
+
+.progress-levels .progress-box .skill-percent {
+    position: absolute;
+    top: -15px;
+    right: -40px;
+    display: flex;
+    align-items: center;
+}
+
+.progress-levels .progress-box .count-text {
+    color: var(--thm-color-4);
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+    float: none;
+    font-family: var(--thm-font);
+}
+.progress-levels .progress-box .percent {
+    color: var(--thm-color-4);
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+    float: none;
+    font-family: var(--thm-font);
+    margin-left: -7px;
+}
+.progress-levels .progress-box .outer-text{
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.progress-levels .progress-box .inner .bar .text{
+    position: relative;
+    display: block;
+    padding-top: 19px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.causes-style1_content-box .btns-box{
+    position: relative;
+    display: block;
+    padding-top: 36px;
+}
+.cause-video-button {
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+    display: inline-block;
+    background: #fcfdfe;
+    color: #2f3a51;
+    font-size: 16px;
+    line-height: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.cause-video-button:hover{
+    color: var(--thm-primary);
+}
+
+
+.cause-video-button .playicon {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #2f3a51;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cause-video-button .txt {
+    position: relative;
+    display: inline-block;
+    top: -1px;
+    padding: 0 20px;
+    padding-right: 25px;
+}
+
+
+
+
+
+/*** 
+=============================================
+    Causes Style2 Area Css
+=============================================
+***/
+.cause-style2-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+}
+.cause-style2-area .thm-shape1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+.cause-style2-area .thm-shape2{
+    position: absolute;
+    right: 200px;
+    bottom: 60px;
+}
+.cause-style2-area .auto-container{
+    max-width: 1250px;
+}
+
+.single-cause-style1{
+    position: relative;
+    display: block;
+}
+.single-cause-style1 .img-holder{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.single-cause-style1 .img-holder:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: var(--thm-primary);
+    opacity: 1.0;
+    transition: .5s;
+    transform: perspective(400px) scaleY(0);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    z-index: 1;
+}
+.single-cause-style1:hover .img-holder:before{
+    opacity: 0.50;
+    transform: perspective(400px) scaleY(1.0);
+}
+
+.single-cause-style1 .img-holder img{
+    width: 100%;
+    transition: all 3500ms ease;    
+}
+.single-cause-style1:hover .img-holder img{
+    transform: scale(1.3) rotate(2deg);
+}
+
+.single-cause-style1 .text-holder{
+    position: relative;
+    display: block;
+    background: #fff;
+    border: 1px solid #e3e9f4;
+    border-top: none;
+    padding: 43px 40px 50px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-cause-style1:hover .text-holder{
+    border-color: #ffffff;
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);
+}
+
+.single-cause-style1 .text-holder::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -25px;
+    right: 0;
+    width: 50px;
+    margin: 0 auto;
+    border-bottom: 25px solid #ffffff;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    z-index: 3;
+}
+
+.single-cause-style1 .text-holder h3{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+.single-cause-style1 .text-holder h3 a{
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-cause-style1 .text-holder h3 a:hover{
+    color: var(--thm-primary);
+}
+.single-cause-style1 .text-holder p{
+    margin: 0;
+}
+
+.progress-levels-style2{
+    position: relative;
+    display: block;
+    padding-top: 32px;
+}
+.progress-levels-style2 .progress-box .inner {
+    position: relative;
+    display: block;
+    padding-right:0px;
+}
+.progress-levels-style2 .bottom-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 39px;
+}
+.progress-levels-style2 .bottom-box .rate-box{
+    position: relative;
+    display: block;
+}
+.progress-levels-style2 .bottom-box .rate-box p{
+    color: #222222;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.progress-levels-style2 .bottom-box .rate-box.clrwhite p{
+    color: #ffffff;
+}
+
+.single-cause-style1 .bottom-box .rate-box p span{
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+
+.progress-levels-style2 .progress-box .skill-percent {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    top: 4px;
+    right: 0;
+    text-align: right;
+}
+.progress-levels-style2 .progress-box .count-text {
+    color: var(--thm-color-4);
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+    float: none;
+    font-family: var(--thm-font);
+}
+.progress-levels-style2 .progress-box .percent {
+    color: var(--thm-color-4);
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+    float: none;
+    font-family: var(--thm-font);
+    margin-left: -7px;
+}
+.progress-levels-style2 .progress-box .outer-text{
+    position: relative;
+    display: block;
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0px 0 0;
+}
+
+
+.single-cause-style1 .text-holder .btns-box{
+    position: relative;
+    display: block;
+}
+.single-cause-style1 .text-holder .btns-box a{
+    color: #222222;
+    text-align: center;
+    display: block;
+    background: #eef1f7;
+}
+.single-cause-style1 .text-holder .btns-box a.btn-one .txt i.arrow1 {
+    float: left;
+    line-height: 58px;
+    color: var(--thm-primary);
+    padding: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+.single-cause-style1 .text-holder .btns-box a.btn-one:hover .txt i.arrow1{
+    color: #ffffff;
+}
+.single-cause-style1 .text-holder .btns-box a.btn-one:hover{
+    color: #ffffff;
+}
+.single-cause-style1 .text-holder .btns-box a.btn-one:hover:before {
+    background: var(--thm-primary);
+}
+
+
+.single-cause-style1.style2 .text-holder {
+    border: 1px solid #e3e9f4;
+    border-top: 1px solid #e3e9f4;
+    border-bottom: none;
+}
+.single-cause-style1.style2:hover .text-holder{
+    border-color: #ffffff;
+}
+.single-cause-style1.style2 .text-holder::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: -25px;
+    right: 0;
+    width: 50px;
+    margin: 0 auto;
+    border-top: 25px solid #ffffff;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: none;
+    z-index: 2;
+}
+
+.cause2-carousel.owl-theme .owl-stage-outer {
+    overflow: visible;
+}
+.cause2-carousel.owl-theme .owl-stage-outer .owl-item{
+    opacity: 0;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+}
+.cause2-carousel.owl-theme .owl-stage-outer .owl-item.active{
+    opacity: 1;
+}
+
+
+
+/*** 
+=============================================
+    Causes Style3 Area Css
+=============================================
+***/
+.cause-style3-area{
+    position: relative;
+    display: block;
+    background: #eef1f7;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+.cause-style3-area_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: -1;
+}
+.cause-style3-area .auto-container{
+    max-width: 1320px;
+}
+
+.single-cause-style1--instyle2{
+    padding-left: 250px;
+    min-height: 510px;
+}
+.single-cause-style1--instyle2 .img-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.single-cause-style1--instyle2 .text-holder{
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);  
+    padding: 45px 40px 50px;  
+}
+.single-cause-style1--instyle2 .text-holder::before {
+    display: none;
+}
+.single-cause-style1--instyle2 .text-holder .category{
+    position: relative;
+    display: inline-block;
+    background: var(--thm-color-5);
+    padding: 10px 20px 10px;
+    border-radius: 30px;
+    margin-bottom: 23px;
+}
+.single-cause-style1--instyle2 .text-holder .category h6{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cause-style3-area .owl-nav-style-one.owl-theme .owl-nav {
+    padding-top: 70px;
+}
+
+
+
+
+/*** 
+=============================================
+    Causes Style4 Area Css
+=============================================
+***/
+.cause-style4-area{
+    position: relative;
+    display: block;
+    padding: 0px 0 120px;
+    z-index: 1;
+}
+.cause-style4-area .shape1{
+    position: absolute;
+    left: 10%;
+    bottom: 60px;
+}
+.cause-style4-area .shape2{
+    position: absolute;
+    right: 5%;
+    bottom: 60px;
+}
+
+
+.cause-style4-area .container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+.cause-style4-area .auto-container {
+    max-width: 1330px;
+}
+.cause-style4-content-box{
+    position: relative;
+    display: block;
+    padding-top: 120px;
+    z-index: 2;
+}
+.cause-style4-content-box_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 125px;
+    right: 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.cause-style4-title {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    padding-bottom: 56px;
+}
+.cause-style4-title .left{
+    position: relative;
+    display: block;
+    max-width: 590px;
+    width: 100%;
+}
+.cause-style4-title .left .sec-title{
+    padding-bottom: 0;
+}
+
+
+.cause-style4-title .right {
+    position: relative;
+    display: block;
+    top: -3px;
+}
+.cause-style4-title .right .text{
+    position: relative;
+    display: block;
+}
+.cause-style4-title .right .text p{
+    color: #222222;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.cause4-carousel.owl-nav-style-one.owl-theme .owl-nav{
+    margin-top: 70px;
+}
+
+.single-cause-style5{
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+.single-cause-style5 .text-holder.overlay-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: perspective(400px) scaleY(0);
+    -webkit-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
+    z-index: 1;
+}
+.single-cause-style5:hover .text-holder.overlay-box{
+    opacity: 1.0;
+    transform: perspective(400px) scaleY(1.0);
+}
+.single-cause-style5 .img-holder:before {
+    display: none;
+}
+.single-cause-style5 .text-holder::before {
+    display: none;
+}
+
+
+
+/*** 
+=============================================
+    Causes Page One Css
+=============================================
+***/
+.cause-page-one{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+}
+.cause-page-one .auto-container{
+    max-width: 1250px;
+}
+.cause-page-one .row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.cause-page-one .row [class*=col-] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cause-page-one .single-cause-style1{
+    margin-bottom: 60px;
+}
+.cause-page-one .single-cause-style1 .img-holder:before {
+    background: #000000;
+}
+.cause-page-one .single-cause-style1:hover .img-holder:before{
+    opacity: 0.75;
+}
+.cause-page-one .single-cause-style1 .img-holder .overlay-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: all 100ms linear;
+}
+.cause-page-one .single-cause-style1:hover .img-holder .overlay-icon{
+    transform: scaleY(1.0);
+    transition: all 500ms linear;
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.cause-page-one .single-cause-style1 .img-holder .overlay-icon a{
+    position: relative;
+    display: inline-block;
+}
+.cause-page-one .single-cause-style1 .img-holder .overlay-icon a img{
+    width: auto;
+}
+
+
+
+/*** 
+=============================================
+    Causes Page Two Css
+=============================================
+***/
+.cause-page-two{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+.cause-page-two .auto-container{
+    max-width: 1320px;
+}
+.cause-page-two .row {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.cause-page-two .row [class*=col-] {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cause-page-two .single-cause-style1--instyle2{
+    margin-bottom: 80px;
+}
+.cause-page-two .single-cause-style1--instyle2 .text-holder {
+    border: 1px solid transparent;
+}
+
+
+
+/*** 
+=============================================
+    Causes Page Three Featured Cause Css
+=============================================
+***/
+.cause-page-three-featured-cause{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+    z-index: 2;
+}
+.cause-page-three-featured-cause-bg{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 165px;
+    right: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    opacity: 0.08;
+}
+.cause-page-three-featured-cause:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 165px;
+    right: 0;
+    background: #eef1f7;
+    z-index: -1;
+}
+.cause-page-three-featured-cause .auto-container{
+    max-width: 1250px;
+}
+
+.cause-page3-featured-cause-content{
+    position: relative;
+    display: block;
+    padding-left: 600px;
+    min-height: 525px;
+}
+.featured-cause-image-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 600px;
+    width: 100%;
+}
+.featured-cause-image-box img{
+    width: 100%;
+}
+.featured-cause-image-box .overlay-text{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-106px);
+}
+.featured-cause-image-box .overlay-text .inner {
+    position: relative;
+    display: inline-block;
+    background-color: var(--thm-primary);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Great Vibes', cursive;
+    padding: 16px 0px;
+    transform: rotate(-90deg) translateX(-100%) translateY(-100%);
+    transform-origin: 0 0;
+    left: 100%;
+    width: 212px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px
+}
+
+
+.featured-cause-content-box{
+    position: relative;
+    display: block;
+    padding-left: 0;
+    min-height: 525px;
+}
+.single-cause-style1--instyle2.featured-cause-content-box .text-holder {
+    padding: 45px 60px 45px;
+    border: none;
+}
+.single-cause-style1--instyle2.featured-cause-content-box .text-holder .category {
+    margin-bottom: 23px;
+}
+.single-cause-style1.featured-cause-content-box .text-holder h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 15px;
+}
+.featured-cause-content-box .progress-levels-style2 {
+    padding-top: 22px;
+}
+.featured-cause-content-box .progress-levels-style2 .bottom-box {
+    padding-top: 22px;
+    padding-bottom: 32px;
+}
+
+
+
+/*** 
+=============================================
+    Causes Page Three Css
+=============================================
+***/
+.cause-page-three{
+    position: relative;
+    display: block;
+    padding-top: 0;
+}
+.loadmore-cause-btn-box{
+    position: relative;
+    display: block;
+    padding-top: 20px;
+}
+.loadmore-cause-btn-box a {
+    padding-left: 30px;
+    padding-right: 35px;
+    background: var(--thm-color-3);
+}
+
+
+
+/*** 
+=============================================
+    Causes details Area Css
+=============================================
+***/
+.cause-details-area{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 100px;
+    z-index: 1;
+}
+.cause-details_content {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+}
+.cause-details-image-box{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.cause-details-image-box img{
+    width: 100%;
+}
+.cause-details-image-box .category{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    background: var(--thm-color-5);
+    padding: 0 20px;
+    border-radius: 30px;
+}
+.cause-details-image-box .category h6{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.donate-form-box--style2 {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 53px 60px 60px;
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 0px 5px 24px 6px rgba(0, 0, 0, 0.06);
+}
+.donate-form-box--style2 .top-title h2 {
+    color: #222222;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 800;
+}
+.donate-form-box--style2 .progress-levels-style2 .progress-box .bar .bar-innner {
+    background: #dddddd;
+}
+
+.donate-form-box--style2 .progress-levels-style2 .bottom-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.donate-form-box--style2 .progress-levels-style2 .bottom-box .rate-box p {
+    color: #222222;
+}
+.donate-form-box--style2 .progress-levels-style2 .progress-box .count-text {
+    color: var(--thm-color-4);
+}
+.donate-form-box--style2 .progress-levels-style2 .progress-box .percent {
+    color: var(--thm-color-4);
+}
+.donate-form-box--style2 .progress-levels-style2 .progress-box .outer-text {
+    color: #222222;
+}
+
+
+.donate-form-box--style2 .donation_wrapper > .amount_wrapper > input {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 0;
+    height: 55px;
+    padding-left: 70px;
+    padding-right: 10px;
+    border: 1px solid #e3e9f4;
+}
+.donate-form-box--style2 .donation_wrapper > .amount_wrapper > .suffix {
+    border: 1px solid #e3e9f4;
+    line-height: 55px;
+}
+.donate-form-box--style2 .donation_wrapper > .single_amount_wrapper {
+    margin: 0 0px 35px;
+}
+.donate-form-box--style2 .donation_wrapper > .single_amount_wrapper > .single_amount {
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 5px;
+    color: #222222;
+    border: 1px solid #e3e9f4;
+}
+.donate-form-box--style2 .donation_wrapper > .single_amount_wrapper > .single_amount:hover {
+    color: #fff;
+    background: var(--thm-color-3);
+    border-color: 1px solid var(--thm-color-3);
+}
+
+.donate-form-box--style2 .donation_wrapper .bottom-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .btns{
+    position: relative;
+    display: block;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .btns a{
+    position: relative;
+    display: inline-block;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .title{
+    position: relative;
+    display: block;
+    padding-right: 20px;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .title h5{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .social-links{
+    position: relative;
+    display: block;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .social-links li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .social-links li:last-child{
+    margin-right: 0;
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .social-links li a{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #eef1f7;
+    border-radius: 50%;
+    color: #222222;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;    
+}
+.donate-form-box--style2 .donation_wrapper .bottom-box .social-share .social-links li a:hover{
+    color: #fff;
+    background-color: var(--thm-primary);
+}
+
+
+.cause-details-text-box-1{
+    position: relative;
+    display: block;
+    padding-top: 52px;
+}
+
+
+.cause-details-text-box-2{
+    position: relative;
+    display: block;
+    padding-top: 18px;
+}
+
+
+.cause-details-text-box-3{
+    position: relative;
+    display: block;
+    padding-top: 30px;
+}
+.cause-details-title{
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+}
+.cause-details-title-shape {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    opacity: 0.10;
+    z-index: -1;
+}
+.cause-details-title h3{
+    color: #222222;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.cause-details-featured-box{
+    position: relative;
+    display: block;
+    padding-top: 21px;
+}
+.cause-details-featured-box .single-box{
+    position: relative;
+    display: block;
+    padding-left: 60px;
+    margin-bottom: 47px;
+}
+.cause-details-featured-box .single-box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    padding-top: 10px;
+    z-index: 1;
+}
+.cause-details-featured-box .single-box .icon .icon-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.cause-details-featured-box .single-box .text{
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+.cause-details-featured-box .single-box .text h3{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 0 0 11px;
+}
+.cause-details-featured-box .single-box .text p{
+    margin: 0;
+}
+
+
+.cause-details-text-box-4 {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
+.cause-details-text-box-4 .text-box{
+    position: relative;
+    display: block;
+}
+.cause-details-text-box-4 .text-box .text1{
+    position: relative;
+    display: block;
+    padding-bottom: 8px;
+}
+
+
+.cause-details-text-box-5{
+    position: relative;
+    display: block;
+    padding-top: 33px;
+}
+
+
+
+
+
+
+
