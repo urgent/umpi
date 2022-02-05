@@ -1,0 +1,360 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">campaign</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1" display-as-translated="1">campaign_category</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">campaign_tag</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">_campaign_suggested_donations</custom-field>
+    <custom-field action="translate">_campaign_suggested_recurring_donations</custom-field>
+    <custom-field action="translate" label="Description" group="Description">_campaign_description</custom-field>
+    <custom-field action="translate">_campaign_newsletter</custom-field>
+    <custom-field action="translate">_campaign_updates</custom-field>
+    <custom-field action="copy">_campaign_goal</custom-field>
+    <custom-field action="copy">_campaign_end_date</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_donations</custom-field>
+    <custom-field action="copy">_campaign_fee_relief_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_mode</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_recurring_donations</custom-field>
+    <custom-field action="copy">_campaign_recurring_default_tab</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_default_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_length</custom-field>
+    <custom-field action="copy">_campaign_location</custom-field>
+    <custom-field action="copy">_campaign_longitude</custom-field>
+    <custom-field action="copy">_campaign_latitude</custom-field>
+    <custom-field action="copy">_gmaps_place_id</custom-field>
+    <custom-field action="copy-once">_campaign_video</custom-field>
+    <custom-field action="copy-once">_campaign_video_id</custom-field>
+  </custom-fields>
+  <custom-fields-texts>
+    <key name="_campaign_suggested_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_suggested_recurring_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_newsletter">
+      <key name="label"></key>
+    </key>
+  </custom-fields-texts>
+  <admin-texts>
+    <key name="charitable_settings">
+    <key name="gateways_*">
+      <key name="label" />
+      <key name="instructions" />
+    </key>
+    <key name="emails_*">
+      <key name="subject" />
+      <key name="headline" />
+      <key name="body" />
+    </key>
+    <key name="email_from_name" />
+    <key name="email_from_email" />
+    <key name="privacy_policy" />
+    <key name="contact_consent_label" />
+    <key name="terms_conditions" />
+    <key name="giftaid_title" />
+    <key name="giftaid_label" />
+    <key name="giftaid_declaration" />
+    <key name="donor_comment_label" />
+    <key name="donor_comment_placeholder" />
+  </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>charitable_login</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>registration_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_logout</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_registration</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>login_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_fundraise_button</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_team_members</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_response</tag>
+      <attributes>
+        <attribute>error_header</attribute>
+        <attribute>success</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_status</tag>
+      <attributes>
+        <attribute>button_text</attribute>
+        <attribute>connected</attribute>
+        <attribute>not_connected</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">campaign</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1" display-as-translated="1">campaign_category</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">campaign_tag</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">_campaign_suggested_donations</custom-field>
+    <custom-field action="translate">_campaign_suggested_recurring_donations</custom-field>
+    <custom-field action="translate" label="Description" group="Description">_campaign_description</custom-field>
+    <custom-field action="translate">_campaign_newsletter</custom-field>
+    <custom-field action="translate">_campaign_updates</custom-field>
+    <custom-field action="copy">_campaign_goal</custom-field>
+    <custom-field action="copy">_campaign_end_date</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_donations</custom-field>
+    <custom-field action="copy">_campaign_fee_relief_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_mode</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_recurring_donations</custom-field>
+    <custom-field action="copy">_campaign_recurring_default_tab</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_default_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_length</custom-field>
+    <custom-field action="copy">_campaign_location</custom-field>
+    <custom-field action="copy">_campaign_longitude</custom-field>
+    <custom-field action="copy">_campaign_latitude</custom-field>
+    <custom-field action="copy">_gmaps_place_id</custom-field>
+    <custom-field action="copy-once">_campaign_video</custom-field>
+    <custom-field action="copy-once">_campaign_video_id</custom-field>
+  </custom-fields>
+  <custom-fields-texts>
+    <key name="_campaign_suggested_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_suggested_recurring_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_newsletter">
+      <key name="label"></key>
+    </key>
+  </custom-fields-texts>
+  <admin-texts>
+    <key name="charitable_settings">
+    <key name="gateways_*">
+      <key name="label" />
+      <key name="instructions" />
+    </key>
+    <key name="emails_*">
+      <key name="subject" />
+      <key name="headline" />
+      <key name="body" />
+    </key>
+    <key name="email_from_name" />
+    <key name="email_from_email" />
+    <key name="privacy_policy" />
+    <key name="contact_consent_label" />
+    <key name="terms_conditions" />
+    <key name="giftaid_title" />
+    <key name="giftaid_label" />
+    <key name="giftaid_declaration" />
+    <key name="donor_comment_label" />
+    <key name="donor_comment_placeholder" />
+  </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>charitable_login</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>registration_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_logout</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_registration</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>login_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_fundraise_button</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_team_members</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_response</tag>
+      <attributes>
+        <attribute>error_header</attribute>
+        <attribute>success</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_status</tag>
+      <attributes>
+        <attribute>button_text</attribute>
+        <attribute>connected</attribute>
+        <attribute>not_connected</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">campaign</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1" display-as-translated="1">campaign_category</taxonomy>
+    <taxonomy translate="1" display-as-translated="1">campaign_tag</taxonomy>
+  </taxonomies>
+  <custom-fields>
+    <custom-field action="translate">_campaign_suggested_donations</custom-field>
+    <custom-field action="translate">_campaign_suggested_recurring_donations</custom-field>
+    <custom-field action="translate" label="Description" group="Description">_campaign_description</custom-field>
+    <custom-field action="translate">_campaign_newsletter</custom-field>
+    <custom-field action="translate">_campaign_updates</custom-field>
+    <custom-field action="copy">_campaign_goal</custom-field>
+    <custom-field action="copy">_campaign_end_date</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_donations</custom-field>
+    <custom-field action="copy">_campaign_fee_relief_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_mode</custom-field>
+    <custom-field action="copy">_campaign_allow_custom_recurring_donations</custom-field>
+    <custom-field action="copy">_campaign_recurring_default_tab</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period_mode</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_default_period</custom-field>
+    <custom-field action="copy">_campaign_recurring_donation_length</custom-field>
+    <custom-field action="copy">_campaign_location</custom-field>
+    <custom-field action="copy">_campaign_longitude</custom-field>
+    <custom-field action="copy">_campaign_latitude</custom-field>
+    <custom-field action="copy">_gmaps_place_id</custom-field>
+    <custom-field action="copy-once">_campaign_video</custom-field>
+    <custom-field action="copy-once">_campaign_video_id</custom-field>
+  </custom-fields>
+  <custom-fields-texts>
+    <key name="_campaign_suggested_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_suggested_recurring_donations">
+      <key name="*">
+          <key name="description"></key>
+      </key>
+    </key>
+    <key name="_campaign_newsletter">
+      <key name="label"></key>
+    </key>
+  </custom-fields-texts>
+  <admin-texts>
+    <key name="charitable_settings">
+    <key name="gateways_*">
+      <key name="label" />
+      <key name="instructions" />
+    </key>
+    <key name="emails_*">
+      <key name="subject" />
+      <key name="headline" />
+      <key name="body" />
+    </key>
+    <key name="email_from_name" />
+    <key name="email_from_email" />
+    <key name="privacy_policy" />
+    <key name="contact_consent_label" />
+    <key name="terms_conditions" />
+    <key name="giftaid_title" />
+    <key name="giftaid_label" />
+    <key name="giftaid_declaration" />
+    <key name="donor_comment_label" />
+    <key name="donor_comment_placeholder" />
+  </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>charitable_login</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>registration_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_logout</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_registration</tag>
+      <attributes>
+        <attribute>logged_in_message</attribute>
+        <attribute>login_link_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_fundraise_button</tag>
+      <attributes>
+        <attribute>text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_team_members</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_response</tag>
+      <attributes>
+        <attribute>error_header</attribute>
+        <attribute>success</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>charitable_stripe_connect_status</tag>
+      <attributes>
+        <attribute>button_text</attribute>
+        <attribute>connected</attribute>
+        <attribute>not_connected</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>
