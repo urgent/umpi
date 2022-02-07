@@ -1,0 +1,2753 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Resido Listing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-12 17:50+0600\n"
+"PO-Revision-Date: 2019-03-05 12:41+0600\n"
+"Last-Translator: \n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../ajax-loadmore.php:199 ../settings/general.php:27
+#: ../templates/loop/ajax-load-pagination.php:5
+#: ../templates/loop/pagination.php:37
+msgid "Load More"
+msgstr ""
+
+#: ../ajax.php:118 ../ajax.php:425 ../ajax.php:469 ../ajax.php:554
+#: ../widgets/resido-agent-enquiry.php:92
+msgid "Nonce verification failed!"
+msgstr ""
+
+#: ../ajax.php:405 ../templates/archive-rlisting.php:180
+#: ../templates/cat-rlisting.php:106
+#: ../templates/listings-page/list-layout.php:75
+#: ../templates/listings-page/list-layout.php:114
+#: ../templates/taxonomy-listings.php:88
+msgid "Sorry, nothing matched your search criteria"
+msgstr ""
+
+#: ../ajax.php:448
+msgid "Successfully redirecting ..."
+msgstr ""
+
+#: ../ajax.php:454
+msgid "ERROR"
+msgstr ""
+
+#: ../ajax.php:454
+msgid "User name or password is incorrect."
+msgstr ""
+
+#: ../ajax.php:486
+msgid "Username has Space"
+msgstr ""
+
+#: ../ajax.php:490
+msgid "Needed Username must"
+msgstr ""
+
+#: ../ajax.php:494
+msgid "Username already exists"
+msgstr ""
+
+#: ../ajax.php:498
+msgid "Email has no valid value"
+msgstr ""
+
+#: ../ajax.php:502
+msgid "Email already exists"
+msgstr ""
+
+#: ../ajax.php:506
+msgid "Password didn't match"
+msgstr ""
+
+#: ../ajax.php:530
+msgid "Successfully registered."
+msgstr ""
+
+#: ../ajax.php:537
+msgid "Sometings wrong goes here"
+msgstr ""
+
+#: ../ajax.php:607
+msgid "Enquiry has been sent successfully!"
+msgstr ""
+
+#: ../ajax.php:616
+msgid "Failed to send message"
+msgstr ""
+
+#: ../ajax.php:725
+msgid "Enter an username or e-mail address."
+msgstr ""
+
+#: ../ajax.php:731
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: ../ajax.php:737
+msgid "There is no user registered with that username."
+msgstr ""
+
+#: ../ajax.php:740
+msgid "Invalid username or e-mail address."
+msgstr ""
+
+#: ../ajax.php:778
+msgid "Check your email address for you new password."
+msgstr ""
+
+#: ../ajax.php:780
+msgid "System is unable to send you mail contain your new password."
+msgstr ""
+
+#: ../ajax.php:783
+msgid "Oops! Something went wrong while updating your account."
+msgstr ""
+
+#: ../ajax.php:824 ../templates/listing-submit-form/location.php:8
+msgid "Select City"
+msgstr ""
+
+#: ../elementor/widgets/template/grid_layout.php:70
+msgid " Beds"
+msgstr ""
+
+#: ../elementor/widgets/template/grid_layout.php:76
+msgid " Bath"
+msgstr ""
+
+#: ../elementor/widgets/template/grid_layout.php:94
+#: ../elementor/widgets/template/list_layout.php:98
+#: ../elementor/widgets/template/single_property.php:80
+#: ../includes/admin/rlisting-cpt.php:71 ../includes/admin/rlisting-cpt.php:108
+#: ../templates/agency/agencies.php:96 ../templates/agency/agency.php:205
+#: ../templates/agency/agency.php:358 ../templates/agency/archive-agent.php:94
+#: ../templates/agency/single-agent.php:287
+#: ../templates/loop/grid-listing.php:157 ../templates/loop/listing.php:125
+msgid "View"
+msgstr ""
+
+#: ../elementor/widgets/template/list_layout.php:77
+#: ../elementor/widgets/template/single_property.php:53
+#: ../templates/agency/agency.php:332 ../templates/agency/single-agent.php:261
+#: ../templates/loop/grid-listing.php:133 ../templates/loop/listing.php:102
+#: ../templates/single/listing-single-temp-init.php:56
+msgid "Beds"
+msgstr ""
+
+#: ../elementor/widgets/template/list_layout.php:82
+#: ../elementor/widgets/template/single_property.php:60
+#: ../templates/agency/agency.php:339 ../templates/agency/single-agent.php:268
+#: ../templates/loop/grid-listing.php:139 ../templates/loop/listing.php:108
+#: ../templates/single/listing-single-temp-init.php:57
+msgid "Bath"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:36
+msgid "Add New"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:45
+msgid "Please login to view the dashboard."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:71
+#, php-format
+msgid "Howdie, %s!"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:72
+#, php-format
+msgid "You have %d posts."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:112
+msgid "You currently have no posts."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:118
+#: ../extensions/mb-frontend-submission/templates/post/title.php:9
+#: ../includes/admin/rlisting-redux.php:133 ../settings/listing-setup.php:79
+#: ../templates/dashboard/agency.php:107
+#: ../templates/listing-submit-form/edit/additional-details.php:18
+#: ../widgets/resido-sidebar-filter.php:47
+#: ../widgets/resido-sidebar-search.php:59
+msgid "Title"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:119
+#: ../extensions/mb-frontend-submission/templates/post/date.php:9
+#: ../settings/listing-setup.php:76 ../template-hooks.php:208
+msgid "Date"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:120
+#: ../includes/class-subscription.php:72
+#: ../templates/listing-submit-form/basic-information.php:12
+#: ../templates/listing-submit-form/edit/general-information.php:12
+msgid "Status"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:121
+msgid "Actions"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:129
+#: ../includes/admin/rlisting-cpt.php:68 ../includes/admin/rlisting-cpt.php:105
+msgid "Edit"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:132
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:270
+msgid "Delete"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:137
+msgid "Are you sure to delete this post?"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Dashboard.php:138
+#: ../templates/listing-submit-form/edit/additional-details.php:9
+#: ../templates/listing-submit-form/edit/floor-plan.php:9
+msgid "Confirm"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Error.php:9
+#: ../extensions/mb-user-profile/src/Error.php:9
+msgid ""
+"There are some errors submitting the form. Please correct and try again."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:35
+msgid "You are not allowed to edit this post."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:198
+#: ../extensions/mb-user-profile/src/Forms/Base.php:128
+msgid "Clear"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:199
+#: ../extensions/mb-user-profile/src/Forms/Base.php:129
+msgid "Clear color"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:200
+#: ../extensions/mb-user-profile/src/Forms/Base.php:130
+#: ../settings/general.php:26 ../templates/loop/shorting.php:48
+msgid "Default"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:201
+#: ../extensions/mb-user-profile/src/Forms/Base.php:131
+msgid "Select default color"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:202
+#: ../extensions/mb-user-profile/src/Forms/Base.php:132
+msgid "Select Color"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:203
+#: ../extensions/mb-user-profile/src/Forms/Base.php:133
+msgid "Color value"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Form.php:242
+#: ../extensions/mb-user-profile/src/Forms/Base.php:168
+msgid "Error trying to execute grecaptcha."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Post.php:103
+msgid "(No title)"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Post.php:117
+#: ../extensions/mb-frontend-submission/templates/post/thumbnail.php:15
+msgid "Thumbnail"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:120
+msgid "Invalid nonce"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:126
+msgid "Your browser does not FormData."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:167
+#: ../extensions/mb-user-profile/src/Forms/Base.php:196
+msgid "Invalid captcha token"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:181
+#: ../extensions/mb-user-profile/src/Forms/Base.php:210
+msgid "Cannot verify captcha"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:269
+#: ../extensions/mb-user-profile/src/Shortcodes/Info.php:35
+msgid "Submit"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:271
+msgid "Your post has been successfully submitted. Thank you."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/src/Shortcode.php:272
+msgid "Your post has been successfully deleted."
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/templates/post/content.php:9
+#: ../templates/dashboard/agency.php:123
+msgid "Content"
+msgstr ""
+
+#: ../extensions/mb-frontend-submission/templates/post/excerpt.php:9
+msgid "Excerpt"
+msgstr ""
+
+#: ../extensions/mb-settings-page/inc/class-mb-settings-page.php:71
+msgid "Save Settings"
+msgstr ""
+
+#: ../extensions/mb-settings-page/inc/class-mb-settings-page.php:72
+msgid "Settings saved."
+msgstr ""
+
+#: ../extensions/mb-term-meta/inc/class-mb-term-meta-box.php:97
+msgid "Term added."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:26
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:30
+#: ../shortcode.php:710 ../shortcode.php:787
+msgid "Username"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:32
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:31
+#: ../includes/admin/rlisting-meta.php:418
+#: ../includes/admin/rlisting-meta.php:547
+#: ../includes/admin/rlisting-meta.php:624 ../shortcode.php:794
+#: ../template-hooks.php:66 ../template-hooks.php:121
+#: ../templates/author.php:63 ../templates/dashboard/agency.php:119
+#: ../templates/dashboard/profile.php:90
+#: ../templates/listing-submit-form/business-information.php:6
+#: ../templates/listing-submit-form/contact-information.php:12
+#: ../templates/listing-submit-form/edit/business-information.php:6
+#: ../templates/listing-submit-form/edit/contact-information.php:12
+#: ../widgets/resido-agent-enquiry.php:129
+msgid "Email"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:38
+#: ../extensions/mb-user-profile/src/DefaultFields.php:67
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:35
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:32
+#: ../shortcode.php:715 ../shortcode.php:801
+msgid "Password"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:45
+#: ../extensions/mb-user-profile/src/DefaultFields.php:147
+#: ../extensions/mb-user-profile/src/DefaultFields.php:184
+#: ../extensions/mb-user-profile/src/Shortcodes/Info.php:34
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:33
+#: ../shortcode.php:808
+msgid "Confirm Password"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:61
+#: ../extensions/mb-user-profile/src/DefaultFields.php:106
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:34
+msgid "Username or Email Address"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:73
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:36
+msgid "Remember Me"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:78
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:38
+msgid "Log In"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:89
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:37
+msgid "Lost Password?"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:103
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:112 ../shortcode.php:680
+msgid "Get New Password"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:123
+#: ../extensions/mb-user-profile/src/DefaultFields.php:164
+msgid "Login"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:137
+msgid "Please enter a new password below."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:140
+#: ../extensions/mb-user-profile/src/DefaultFields.php:177
+#: ../extensions/mb-user-profile/src/Shortcodes/Info.php:33
+#: ../templates/dashboard/changepassword.php:13
+msgid "New Password"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/DefaultFields.php:153 ../shortcode.php:192
+#: ../shortcode.php:194 ../templates/loop/grid-listing-full.php:40
+#: ../templates/loop/grid-listing-full.php:42
+#: ../templates/single-rlisting.php:201 ../templates/single-rlisting.php:207
+msgid "Save"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:92
+msgid "Invalid form submit."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:148
+msgid "Very weak"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:149
+msgid "Weak"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:150
+msgctxt "password strength"
+msgid "Medium"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:151
+msgid "Strong"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Base.php:152
+msgid "Mismatch"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Info.php:12
+msgid "Please login to continue."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:9
+#: ../extensions/mb-user-profile/src/Forms/Register.php:7
+msgid "You are already logged in."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:51
+msgid "Please enter a username or email address."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:61
+msgid "Invalid username or email."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:76
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:78
+#, php-format
+msgid "Hi, %s"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:79
+#, php-format
+msgid "Someone has requested a new password for your account on %s site."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:80
+msgid "Click here to reset your password"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:87
+msgid "Error sending email. Please try again."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:107
+msgid ""
+"This key is invalid or has already been used. Please reset your password "
+"again if needed."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:118
+msgid "Please enter a valid password."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:122
+msgid "Password does not coincide."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:144
+msgid "Please check your email for the confirmation link."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:147
+msgid "Your password has been reset."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Forms/Login.php:147
+msgid "Log in"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Shortcodes/Info.php:41
+msgid "Your information has been successfully submitted. Thank you."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Shortcodes/Login.php:48
+msgid "You are now logged in."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:34
+msgid "Register"
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/Shortcodes/Register.php:42
+msgid "Your account has been created successfully."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/User.php:38
+msgid "Invalid user ID."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/User.php:48
+#: ../extensions/mb-user-profile/src/User.php:75
+msgid "Passwords do not coincide."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/User.php:64
+msgid "Your email already exists."
+msgstr ""
+
+#: ../extensions/mb-user-profile/src/User.php:71
+msgid "Your username already exists."
+msgstr ""
+
+#: ../extensions/meta-box-group/class-rwmb-group-field.php:60
+#: ../extensions/meta-box-group/group-field.php:63
+msgid "Are you sure you want to remove this group?"
+msgstr ""
+
+#: ../extensions/meta-box-group/class-rwmb-group-field.php:133
+#: ../extensions/meta-box-group/group-field.php:141
+msgid "Remove"
+msgstr ""
+
+#: ../extensions/meta-box-group/class-rwmb-group-field.php:311
+#: ../extensions/meta-box-group/group-field.php:335
+msgid "Entry {#}"
+msgstr ""
+
+#: ../extensions/meta-box-group/class-rwmb-group-field.php:311
+#: ../extensions/meta-box-group/group-field.php:335
+msgid "Entry"
+msgstr ""
+
+#: ../functions.php:61
+msgid "You must provide a name."
+msgstr ""
+
+#: ../functions.php:86
+msgid "Failed to insert data"
+msgstr ""
+
+#: ../functions.php:124
+msgid " views"
+msgstr ""
+
+#: ../functions.php:886
+msgid "Please Set Permalinks to Post Name"
+msgstr ""
+
+#: ../functions.php:899
+msgid ""
+"Please update settings, to update settings go [ Lisitngs > Settings > Save ]"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:26 ../includes/admin/rlisting-cpt.php:38
+msgctxt "resido-listing"
+msgid "Listings"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:27
+msgctxt "resido-listing"
+msgid "Listing"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:28 ../includes/admin/rlisting-cpt.php:140
+#: ../includes/class-subscription.php:23
+msgctxt "resido-listing"
+msgid "Add New"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:29
+msgid "Add New Listing"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:30
+msgid "Edit Listing"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:31
+msgid "New Listing"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:32
+msgid "All Listings"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:33
+msgid "View Listing"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:34
+msgid "Search Listings"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:35 ../includes/admin/rlisting-cpt.php:147
+#: ../includes/class-subscription.php:30
+msgid "No products found"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:36 ../includes/admin/rlisting-cpt.php:148
+#: ../includes/class-subscription.php:31
+msgid "No products found in the Trash"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:64 ../includes/admin/rlisting-cpt.php:78
+msgctxt "resido-listing"
+msgid "Agencies"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:65
+msgctxt "resido-listing"
+msgid "Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:66
+msgctxt "resido-listing"
+msgid "Add New Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:67
+msgid "Add Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:69
+msgid "Edit Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:70
+msgid "New Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:72
+msgid "View Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:73
+msgid "Search Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:74 ../includes/admin/rlisting-cpt.php:75
+msgid "No Agencies found"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:76
+msgid "Parent Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:101
+#: ../includes/admin/rlisting-cpt.php:115
+msgctxt "resido-listing"
+msgid "Agents"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:102
+msgctxt "resido-listing"
+msgid "Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:103
+msgctxt "resido-listing"
+msgid "Add New Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:104
+#: ../templates/dashboard/editagency.php:180
+msgid "Add Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:106
+msgid "Edit Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:107
+msgid "New Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:109
+msgid "View Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:110
+msgid "Search Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:111
+#: ../includes/admin/rlisting-cpt.php:112
+msgid "No Agents found"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:113
+msgid "Parent Agent"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:138
+#: ../includes/admin/rlisting-cpt.php:139
+#: ../includes/admin/rlisting-cpt.php:150
+msgctxt "resido-listing"
+msgid "Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:141
+msgid "Add New Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:142
+msgid "Edit Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:143
+msgid "New Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:144
+msgid "All Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:145
+msgid "View Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:146
+msgid "Search Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:170
+msgctxt "resido-listing"
+msgid "Property Types"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:171
+msgctxt "resido-listing"
+msgid "Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:172
+msgid "Search Property Types"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:173
+msgid "All Property Types"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:174
+#: ../includes/admin/rlisting-cpt.php:175
+msgid "Parent Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:176
+msgid "Edit Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:177
+msgid "Update Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:178
+msgid "Add New Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:179
+msgid "New Property Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:180
+#: ../widgets/resido-sidebar-search.php:83
+#: ../widgets/resido-sidebar-search.php:261
+msgid "Property Types"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:195
+msgctxt "resido-listing"
+msgid "Locations"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:196
+msgctxt "resido-listing"
+msgid "Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:197
+msgid "Search Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:198
+msgid "All Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:199
+msgid "Parent Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:200
+msgid "Parent Location:"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:201
+msgid "Edit Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:202
+msgid "Update Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:203
+msgid "Add New Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:204
+msgid "New Location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:205
+#: ../widgets/resido-sidebar-search.php:77
+msgid "Locations"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:212
+msgctxt "Location Slug"
+msgid "rlisting_location"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:221
+msgctxt "resido-listing"
+msgid "Property Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:222
+msgctxt "resido-listing"
+msgid "Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:223
+msgid "Search Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:224
+msgid "All Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:225
+msgid "Parent Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:226
+msgid "Parent Status:"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:227
+msgid "Edit Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:228
+msgid "Update Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:229
+msgid "Add New Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:230
+msgid "New Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:231
+#: ../widgets/resido-sidebar-search.php:89
+#: ../widgets/resido-sidebar-search.php:321
+msgid "Property Status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:238
+msgctxt "Status Slug"
+msgid "rlisting_status"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:247
+#: ../includes/admin/rlisting-cpt.php:248
+msgctxt "resido-listing"
+msgid "Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:249
+msgid "Search Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:250
+msgid "All Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:251
+msgid "Parent Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:252
+msgid "Parent Listing Features:"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:253
+msgid "Edit Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:254
+msgid "Update Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:255
+msgid "Add New Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:256
+msgid "New Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:257
+msgid "Listing Features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:264
+msgctxt "Features Slug"
+msgid "rlisting_features"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:273
+msgctxt "resido-listing"
+msgid "Room Place Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:274
+msgctxt "resido-listing"
+msgid "Room Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:275
+msgid "Search Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:276
+msgid "All Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:277
+msgid "Parent Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:278
+msgid "Parent Place Typees:"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:279
+msgid "Edit Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:280
+msgid "Update Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:281
+msgid "Add New Place Typees"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:282
+msgid "New Place Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-cpt.php:283
+msgid "Room Place Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:48
+msgid "Listing Expire"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:57
+msgid "Set Expire Date"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:89
+#: ../templates/listing-submit-form/basic-information.php:2
+#: ../templates/listing-submit-form/edit/general-information.php:2
+msgid "Basic Information"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:100
+msgid "Sale or Rent Price(Only Digits)"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:109
+#: ../templates/listing-submit-form/basic-information.php:63
+#: ../templates/listing-submit-form/edit/general-information.php:63
+msgid "Price Postfix"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:111
+msgid "Monthly"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:118
+#: ../templates/listing-submit-form/basic-information.php:68
+#: ../templates/listing-submit-form/edit/general-information.php:68
+#: ../templates/listing-submit-form/edit/general-information.php:73
+msgid "Area Size"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:127
+#: ../templates/listing-submit-form/basic-information.php:73
+msgid "Area Size Postfix"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:136
+msgid "Bedroom"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:145
+msgid "Bath Room"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:153
+#: ../templates/listing-submit-form/basic-information.php:88
+#: ../templates/listing-submit-form/basic-information.php:89
+#: ../templates/listing-submit-form/edit/general-information.php:88
+#: ../templates/listing-submit-form/edit/general-information.php:89
+msgid "Garage"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:160
+msgid "Build Year"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:178
+msgid "Location Information"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:217
+#: ../templates/listing-submit-form/edit/location-information.php:68
+#: ../templates/listing-submit-form/location.php:59
+msgid "Property Address"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:235
+#: ../templates/listing-submit-form/edit/location-information.php:79
+#: ../templates/listing-submit-form/location.php:66
+msgid "Google Map Iframe"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:244
+msgid "Property Gallery Images"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:254
+msgid "Gellary Image"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:269
+msgid "hidden"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:279
+msgid "Property Video"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:289
+msgid "URL"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:296
+msgid "Embed Iframe for the video"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:303
+msgid "image"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:313
+#: ../templates/listing-submit-form/edit/floor-plan.php:2
+#: ../templates/single/listing-single-temp-init.php:296
+msgid "Floor Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:332
+#: ../templates/listing-submit-form/edit/floor-plan.php:31
+msgid "Floor Title"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:339
+#: ../templates/listing-submit-form/edit/floor-plan.php:34
+msgid "Floor Size"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:346
+#: ../templates/listing-submit-form/edit/floor-plan.php:37
+msgid "Size Postfix"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:354
+msgid "Image"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:364
+msgid "Additionals Details"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:402
+msgid "Agent Contact"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:412 ../template-hooks.php:61
+#: ../template-hooks.php:116
+#: ../templates/listing-submit-form/contact-information.php:7
+#: ../templates/listing-submit-form/edit/contact-information.php:7
+#: ../widgets/resido-agent-enquiry.php:124
+msgid "Name"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:424
+#: ../templates/dashboard/profile.php:128
+msgid "Phone"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:430
+msgid "Agency info"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:436
+msgid "Agent info"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:445
+msgid "Pricing Plan"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:457
+msgid "Bacground Type"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:473
+#: ../includes/class-subscription.php:125 ../settings/ratting-settings.php:15
+#: ../templates/listing-submit-form/basic-information.php:58
+#: ../templates/listing-submit-form/edit/general-information.php:58
+#: ../templates/single/header-banner-1.php:116
+#: ../templates/single/listing-single-temp-init.php:550
+#: ../templates/single/rating-overview.php:98
+msgid "Price"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:481
+msgid "Duration"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:489
+msgid "Listing Submission Limit"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:497
+msgid "Pricing Custom URL"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:505
+#: ../templates/dashboard/agency.php:135
+#: ../templates/listing-submit-form/edit/featured-image.php:2
+#: ../templates/listing-submit-form/featured-image.php:2
+msgid "Featured Image"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:520 ../templates/agency/agency.php:21
+msgid "Agency Details"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:531
+#: ../includes/admin/rlisting-meta.php:608
+#: ../templates/dashboard/agency.php:111 ../templates/dashboard/profile.php:133
+#: ../templates/listing-submit-form/edit/location-information.php:69
+#: ../templates/listing-submit-form/location.php:60
+msgid "Address"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:539
+#: ../includes/admin/rlisting-meta.php:616
+#: ../templates/dashboard/agency.php:115
+msgid "Cell"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:557
+#: ../includes/admin/rlisting-meta.php:641
+#: ../templates/dashboard/agency.php:127
+msgid "Social Information"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:576
+#: ../templates/dashboard/agency.php:131
+msgid "Agency Information"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:597
+#: ../templates/agency/single-agent.php:21
+msgid "Agent Details"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:632 ../template-hooks.php:356
+#: ../templates/dashboard.php:86
+#: ../templates/listing-submit-form/contact-information.php:21
+#: ../templates/listing-submit-form/edit/contact-information.php:21
+msgid "Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-meta.php:660
+msgid "Agent Information"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:19 ../resido-listing.php:79
+msgid "Listing Single"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:28
+#: ../includes/admin/rlisting-redux.php:124
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:34
+msgid "Breadcrumb Slider"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:40
+msgid "Title Top"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:49
+msgid "Featured Image as thumb"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:77
+msgid "Default Collapsed section on the first load"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:115
+msgid "Listing Archive"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:134
+#: ../includes/admin/rlisting-redux.php:171
+#: ../includes/admin/rlisting-redux.php:196
+msgid "Property List"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:142
+#: ../includes/admin/rlisting-redux.php:179
+#: ../includes/admin/rlisting-redux.php:204
+msgid "Sub Title"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:143
+#: ../includes/admin/rlisting-redux.php:180
+#: ../includes/admin/rlisting-redux.php:205
+msgid "Property List With Sidebar"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:152
+msgid "Agent & Agency"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:161
+msgid "Agent Breadcrumb"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:170
+msgid "Agent Archive Page Title"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:186
+msgid "Agency Breadcrumb"
+msgstr ""
+
+#: ../includes/admin/rlisting-redux.php:195
+msgid "Agency Archive Page Title"
+msgstr ""
+
+#: ../includes/class-subscription.php:21 ../includes/class-subscription.php:22
+msgctxt "resido-listing"
+msgid "Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:24
+msgid "Add New Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:25
+msgid "Edit Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:26
+msgid "New Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:27
+msgid "All Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:28
+msgid "View Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:29
+msgid "Search Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:71 ../settings/general.php:11
+msgid "Subscription"
+msgstr ""
+
+#: ../includes/class-subscription.php:73
+msgid "\tPlan"
+msgstr ""
+
+#: ../includes/class-subscription.php:74
+msgid "\tPackage Id"
+msgstr ""
+
+#: ../includes/class-subscription.php:75
+msgid "\tExpire"
+msgstr ""
+
+#: ../includes/class-subscription.php:76
+msgid "Active Date"
+msgstr ""
+
+#: ../includes/class-subscription.php:88
+msgid " by "
+msgstr ""
+
+#: ../includes/class-subscription.php:107
+msgid "Subscription Expired"
+msgstr ""
+
+#: ../includes/class-subscription.php:110
+msgid "Never"
+msgstr ""
+
+#: ../includes/class-subscription.php:124 ../settings/listing-setup.php:77
+msgid "ID"
+msgstr ""
+
+#: ../resido-listing.php:67
+msgid "Listing Sidebar"
+msgstr ""
+
+#: ../resido-listing.php:69
+msgid "Widgets in this area will be shown on all Listing sidebar Widgets"
+msgstr ""
+
+#: ../resido-listing.php:81
+msgid "Widgets in this area will be shown on all Listing single page sidebar"
+msgstr ""
+
+#: ../resido-listing.php:244
+msgid "Resido Admin"
+msgstr ""
+
+#: ../settings.php:15
+msgid "Settings"
+msgstr ""
+
+#: ../settings.php:18 ../settings/general.php:5 ../settings/map-settings.php:4
+#: ../settings/ratting-settings.php:4
+msgid "General"
+msgstr ""
+
+#: ../settings.php:19
+msgid "Map"
+msgstr ""
+
+#: ../settings.php:20
+msgid "Listing"
+msgstr ""
+
+#: ../settings.php:22
+msgid "Listing Enquiry"
+msgstr ""
+
+#: ../settings/general.php:15 ../settings/map-settings.php:42
+#: ../settings/map-settings.php:52
+msgid "Enable"
+msgstr ""
+
+#: ../settings/general.php:16 ../settings/map-settings.php:43
+#: ../settings/map-settings.php:53
+msgid "Disable"
+msgstr ""
+
+#: ../settings/general.php:22
+msgid "Pagination Style"
+msgstr ""
+
+#: ../settings/general.php:33
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../settings/general.php:40
+msgid "Currency Position"
+msgstr ""
+
+#: ../settings/general.php:44
+msgid "Left"
+msgstr ""
+
+#: ../settings/general.php:45
+msgid "Right"
+msgstr ""
+
+#: ../settings/general.php:46
+msgid "Left with space"
+msgstr ""
+
+#: ../settings/general.php:47
+msgid "Right with space"
+msgstr ""
+
+#: ../settings/general.php:55
+msgid "Share option Settings"
+msgstr ""
+
+#: ../settings/general.php:58 ../templates/dashboard/profile.php:162
+msgid "Facebook"
+msgstr ""
+
+#: ../settings/general.php:64 ../templates/dashboard/profile.php:167
+msgid "Twitter"
+msgstr ""
+
+#: ../settings/general.php:70 ../templates/dashboard/profile.php:172
+msgid "LinkedIn"
+msgstr ""
+
+#: ../settings/general.php:76
+msgid "Whatsapp"
+msgstr ""
+
+#: ../settings/general.php:82
+msgid "Telegram"
+msgstr ""
+
+#: ../settings/general.php:87
+msgid "VK"
+msgstr ""
+
+#: ../settings/general.php:94
+msgid "Login Popup Settings"
+msgstr ""
+
+#: ../settings/general.php:98
+msgid "Registration On or Off"
+msgstr ""
+
+#: ../settings/general.php:102 ../settings/listing-item.php:14
+#: ../settings/listing-setup.php:123 ../settings/listing-setup.php:135
+#: ../settings/listing-setup.php:147 ../settings/listing-setup.php:159
+#: ../settings/page-settings.php:38 ../settings/page-settings.php:62
+#: ../settings/page-settings.php:73 ../settings/page-settings.php:84
+#: ../settings/page-settings.php:95
+msgid "Yes"
+msgstr ""
+
+#: ../settings/general.php:103 ../settings/listing-item.php:15
+#: ../settings/listing-setup.php:124 ../settings/listing-setup.php:136
+#: ../settings/listing-setup.php:148 ../settings/listing-setup.php:160
+#: ../settings/page-settings.php:39 ../settings/page-settings.php:63
+#: ../settings/page-settings.php:74 ../settings/page-settings.php:85
+#: ../settings/page-settings.php:96
+msgid "No"
+msgstr ""
+
+#: ../settings/general.php:109
+msgid "Registration Redirect URL"
+msgstr ""
+
+#: ../settings/general.php:114
+msgid "Login Redirect URL"
+msgstr ""
+
+#: ../settings/listing-enquiry.php:5
+msgid "Listing Enquiry Message"
+msgstr ""
+
+#: ../settings/listing-enquiry.php:11
+msgid "Recipient Email"
+msgstr ""
+
+#: ../settings/listing-enquiry.php:17
+msgid "Message Subject"
+msgstr ""
+
+#: ../settings/listing-item.php:5
+msgid "Listing Item"
+msgstr ""
+
+#: ../settings/listing-item.php:10
+msgid "Show Listing Item Price"
+msgstr ""
+
+#: ../settings/listing-item.php:21
+msgid "Avatar Image"
+msgstr ""
+
+#: ../settings/listing-setup.php:5
+msgid "Listing Setup"
+msgstr ""
+
+#: ../settings/listing-setup.php:10
+msgid "Listings archive page slug"
+msgstr ""
+
+#: ../settings/listing-setup.php:11
+msgid "This will be shown in the listing archive url"
+msgstr ""
+
+#: ../settings/listing-setup.php:18
+msgid "Listing single pag slug"
+msgstr ""
+
+#: ../settings/listing-setup.php:19
+msgid "This will be shown in the listing details url"
+msgstr ""
+
+#: ../settings/listing-setup.php:26
+msgid "Default View"
+msgstr ""
+
+#: ../settings/listing-setup.php:30
+msgid "Grid"
+msgstr ""
+
+#: ../settings/listing-setup.php:31
+msgid "List"
+msgstr ""
+
+#: ../settings/listing-setup.php:32
+msgid "Classic"
+msgstr ""
+
+#: ../settings/listing-setup.php:38
+msgid "Grid Column"
+msgstr ""
+
+#: ../settings/listing-setup.php:42 ../settings/listing-setup.php:54
+msgid "1"
+msgstr ""
+
+#: ../settings/listing-setup.php:43 ../settings/listing-setup.php:55
+msgid "2"
+msgstr ""
+
+#: ../settings/listing-setup.php:44 ../settings/listing-setup.php:56
+msgid "3"
+msgstr ""
+
+#: ../settings/listing-setup.php:50
+msgid "List Column"
+msgstr ""
+
+#: ../settings/listing-setup.php:62
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../settings/listing-setup.php:63
+msgid "How many posts to show in archive listing"
+msgstr ""
+
+#: ../settings/listing-setup.php:72
+msgid "Order By"
+msgstr ""
+
+#: ../settings/listing-setup.php:78 ../template-hooks.php:204
+msgid "Author"
+msgstr ""
+
+#: ../settings/listing-setup.php:80
+msgid "Modified"
+msgstr ""
+
+#: ../settings/listing-setup.php:81
+msgid "Random"
+msgstr ""
+
+#: ../settings/listing-setup.php:82
+msgid "Comment count"
+msgstr ""
+
+#: ../settings/listing-setup.php:83
+msgid "Menu order"
+msgstr ""
+
+#: ../settings/listing-setup.php:88
+msgid "Order"
+msgstr ""
+
+#: ../settings/listing-setup.php:92
+msgid "ASC"
+msgstr ""
+
+#: ../settings/listing-setup.php:93
+msgid "DESC"
+msgstr ""
+
+#: ../settings/listing-setup.php:100
+msgid "Newsletter"
+msgstr ""
+
+#: ../settings/listing-setup.php:108
+msgid "Listing Sidebar Settings"
+msgstr ""
+
+#: ../settings/listing-setup.php:112
+msgid "Sidebar"
+msgstr ""
+
+#: ../settings/listing-setup.php:119
+msgid "Keywords"
+msgstr ""
+
+#: ../settings/listing-setup.php:131 ../settings/ratting-settings.php:27
+#: ../templates/author.php:58
+#: ../templates/listing-submit-form/edit/location-information.php:14
+#: ../templates/listing-submit-form/location.php:2
+#: ../templates/single/header-banner-1.php:147
+#: ../templates/single/listing-single-temp-init.php:382
+#: ../templates/single/listing-single-temp-init.php:572
+#: ../templates/single/rating-overview.php:120
+msgid "Location"
+msgstr ""
+
+#: ../settings/listing-setup.php:143 ../template-hooks.php:203
+msgid "Category"
+msgstr ""
+
+#: ../settings/listing-setup.php:155 ../widgets/listing-sidebar.php:177
+msgid "Advance Features"
+msgstr ""
+
+#: ../settings/map-settings.php:9
+msgid "Javascript Map Key"
+msgstr ""
+
+#: ../settings/map-settings.php:10
+msgid ""
+"Please enter your Google Map API Key. Required - <b>Google Places API Web "
+"Service and Google Maps JavaScript API.</b> <a href=\"https://developers."
+"google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\">Get "
+"Your Key</a>"
+msgstr ""
+
+#: ../settings/map-settings.php:16 ../settings/map-settings.php:17
+msgid "Zoom Level"
+msgstr ""
+
+#: ../settings/map-settings.php:23
+msgid "Default Center Latitude"
+msgstr ""
+
+#: ../settings/map-settings.php:24
+msgid "Center Latitude"
+msgstr ""
+
+#: ../settings/map-settings.php:30
+msgid "Default Center Longitude"
+msgstr ""
+
+#: ../settings/map-settings.php:31
+msgid "Center Longitude"
+msgstr ""
+
+#: ../settings/map-settings.php:37
+msgid "GPS Location"
+msgstr ""
+
+#: ../settings/map-settings.php:38
+msgid "Enable of Disable GPS Location on Map"
+msgstr ""
+
+#: ../settings/map-settings.php:47
+msgid "Map on Archive"
+msgstr ""
+
+#: ../settings/map-settings.php:48
+msgid "Choose Archive Page map Location Layout"
+msgstr ""
+
+#: ../settings/page-settings.php:4
+msgid "Single Page Settings"
+msgstr ""
+
+#: ../settings/page-settings.php:9
+msgid "Single Page Style"
+msgstr ""
+
+#: ../settings/page-settings.php:13
+msgid "Listing Single 1"
+msgstr ""
+
+#: ../settings/page-settings.php:14
+msgid "Listing Single 2"
+msgstr ""
+
+#: ../settings/page-settings.php:15
+msgid "Listing Single 3"
+msgstr ""
+
+#: ../settings/page-settings.php:34
+msgid "Show Location"
+msgstr ""
+
+#: ../settings/page-settings.php:58
+msgid "Show Review"
+msgstr ""
+
+#: ../settings/page-settings.php:69
+msgid "Show Enquiry Form"
+msgstr ""
+
+#: ../settings/page-settings.php:80
+msgid "Show Listing Info"
+msgstr ""
+
+#: ../settings/page-settings.php:91
+msgid "Show Listing Tags"
+msgstr ""
+
+#: ../settings/ratting-settings.php:9
+#: ../templates/single/listing-single-temp-init.php:537
+#: ../templates/single/rating-overview.php:85
+msgid "Service"
+msgstr ""
+
+#: ../settings/ratting-settings.php:21
+#: ../templates/single/header-banner-1.php:131
+#: ../templates/single/listing-single-temp-init.php:561
+#: ../templates/single/rating-overview.php:109
+msgid "Quality"
+msgstr ""
+
+#: ../settings/ratting-settings.php:34
+#: ../templates/single/comments-form.php:113
+#: ../templates/single/listing-single-temp-init.php:905
+msgid "Average Ratting"
+msgstr ""
+
+#: ../shortcode.php:37
+msgid "Now Open"
+msgstr ""
+
+#: ../shortcode.php:39 ../shortcode.php:275
+#: ../templates/loop/grid-listing-full.php:148
+msgid "Closed"
+msgstr ""
+
+#: ../shortcode.php:82
+msgid "Reviews"
+msgstr ""
+
+#: ../shortcode.php:179 ../template-hooks.php:205
+#: ../templates/loop/grid-listing-full.php:27
+msgid "Featured"
+msgstr ""
+
+#: ../shortcode.php:273 ../templates/loop/grid-listing-full.php:146
+msgid "Open"
+msgstr ""
+
+#: ../shortcode.php:368 ../shortcode.php:504
+msgid "Search for a Property"
+msgstr ""
+
+#: ../shortcode.php:369
+msgid "Go & Search"
+msgstr ""
+
+#: ../shortcode.php:384 ../shortcode.php:539
+msgid "Keywords..."
+msgstr ""
+
+#: ../shortcode.php:394 ../shortcode.php:395 ../shortcode.php:581
+#: ../shortcode.php:582 ../widgets/listing-sidebar.php:117
+msgid "Select Category"
+msgstr ""
+
+#: ../shortcode.php:422 ../shortcode.php:623
+msgid "All Cities"
+msgstr ""
+
+#: ../shortcode.php:447 ../shortcode.php:512
+#: ../widgets/resido-sidebar-search.php:503
+msgid "Search"
+msgstr ""
+
+#: ../shortcode.php:549
+msgid "Min Price"
+msgstr ""
+
+#: ../shortcode.php:563
+msgid "Max Price"
+msgstr ""
+
+#: ../shortcode.php:580
+#: ../templates/listing-submit-form/basic-information.php:35
+#: ../templates/listing-submit-form/edit/general-information.php:35
+msgid "Property Type"
+msgstr ""
+
+#: ../shortcode.php:603
+msgid "Bed Rooms"
+msgstr ""
+
+#: ../shortcode.php:621
+msgid "Property Location"
+msgstr ""
+
+#: ../shortcode.php:647
+msgid "Search Result"
+msgstr ""
+
+#: ../shortcode.php:668
+msgid "Reset YOUR PASSWORD"
+msgstr ""
+
+#: ../shortcode.php:672
+msgid "Username or E-mail:"
+msgstr ""
+
+#: ../shortcode.php:703
+msgid "Log"
+msgstr ""
+
+#: ../shortcode.php:703
+msgid "In"
+msgstr ""
+
+#: ../shortcode.php:708
+msgid "User Name"
+msgstr ""
+
+#: ../shortcode.php:731
+msgid "Forgot password?"
+msgstr ""
+
+#: ../shortcode.php:740
+msgid "Don't have an account"
+msgstr ""
+
+#: ../shortcode.php:742
+msgid "Registration"
+msgstr ""
+
+#: ../shortcode.php:766
+msgid "Sign"
+msgstr ""
+
+#: ../shortcode.php:766
+msgid "Up"
+msgstr ""
+
+#: ../shortcode.php:773
+msgid "First name"
+msgstr ""
+
+#: ../shortcode.php:780
+msgid "Last name"
+msgstr ""
+
+#: ../shortcode.php:818
+msgid "Sign Up"
+msgstr ""
+
+#: ../shortcode.php:838 ../templates/dashboard.php:30
+msgid ""
+"Please, Sign In before you submit a property. If you don't have an account "
+"you can create one by"
+msgstr ""
+
+#: ../shortcode.php:839 ../templates/dashboard.php:30
+msgid "Clicking Here"
+msgstr ""
+
+#: ../shortcode.php:1080
+msgid "GDPR Agreement *"
+msgstr ""
+
+#: ../shortcode.php:1084 ../templates/dashboard/editlisting.php:162
+msgid ""
+"I consent to having this website store my submitted information so they can "
+"respond to my inquiry."
+msgstr ""
+
+#: ../shortcode.php:1094 ../shortcode.php:1096
+#: ../templates/dashboard/editlisting.php:170
+msgid "Submit &#38; Preview"
+msgstr ""
+
+#: ../template-hooks.php:23 ../widgets/resido-enquiry-form.php:20
+msgid "Resido Enquiry Widget"
+msgstr ""
+
+#: ../template-hooks.php:24 ../widgets/resido-agent-enquiry.php:64
+msgid "Click to edit"
+msgstr ""
+
+#: ../template-hooks.php:62 ../template-hooks.php:117
+#: ../templates/dashboard/profile.php:85
+#: ../templates/single/comments-form.php:135
+#: ../templates/single/listing-single-temp-init.php:925
+#: ../widgets/resido-agent-enquiry.php:125
+msgid "Your Name"
+msgstr ""
+
+#: ../template-hooks.php:67 ../template-hooks.php:122
+#: ../templates/single/comments-form.php:140
+#: ../templates/single/listing-single-temp-init.php:930
+#: ../widgets/resido-agent-enquiry.php:130
+msgid "Your Email"
+msgstr ""
+
+#: ../template-hooks.php:71 ../template-hooks.php:126
+#: ../widgets/resido-agent-enquiry.php:134
+msgid "Phone No."
+msgstr ""
+
+#: ../template-hooks.php:72 ../template-hooks.php:127
+#: ../widgets/resido-agent-enquiry.php:135
+msgid "+123456789"
+msgstr ""
+
+#: ../template-hooks.php:76 ../template-hooks.php:131
+#: ../templates/listing-submit-form/details-information.php:7
+#: ../templates/listing-submit-form/edit/listing-amenity.php:7
+#: ../templates/single/listing-single-temp-init.php:138
+#: ../widgets/resido-agent-enquiry.php:139
+msgid "Description"
+msgstr ""
+
+#: ../template-hooks.php:77 ../template-hooks.php:132
+#: ../widgets/resido-agent-enquiry.php:140
+msgid "I'm interested in this property."
+msgstr ""
+
+#: ../template-hooks.php:86 ../template-hooks.php:142
+#: ../widgets/resido-agent-enquiry.php:149
+msgid "Send Message"
+msgstr ""
+
+#: ../template-hooks.php:206 ../template-hooks.php:241
+msgid "Verified"
+msgstr ""
+
+#: ../template-hooks.php:207
+msgid "Package"
+msgstr ""
+
+#: ../template-hooks.php:245
+msgid "Verify"
+msgstr ""
+
+#: ../template-hooks.php:255
+msgid "Expired"
+msgstr ""
+
+#: ../template-hooks.php:258
+msgid "Set Expired by Admin"
+msgstr ""
+
+#: ../template-hooks.php:354 ../template-loader.php:120
+#: ../templates/dashboard.php:63
+msgid "Dashboard"
+msgstr ""
+
+#: ../template-hooks.php:355 ../templates/dashboard.php:100
+msgid "Add Listing"
+msgstr ""
+
+#: ../template-hooks.php:357 ../templates/dashboard.php:70
+msgid "My Profile"
+msgstr ""
+
+#: ../template-hooks.php:358
+msgid "My Listing"
+msgstr ""
+
+#: ../template-hooks.php:359 ../templates/dashboard/dashboard.php:87
+msgid "Bookmarked"
+msgstr ""
+
+#: ../template-hooks.php:362 ../templates/dashboard.php:123
+msgid "Change Password"
+msgstr ""
+
+#: ../template-hooks.php:365 ../templates/dashboard.php:128
+msgid "Log Out"
+msgstr ""
+
+#: ../template-loader.php:113
+msgid "Half Map Listing"
+msgstr ""
+
+#: ../template-loader.php:127
+msgid "Listing Page"
+msgstr ""
+
+#: ../templates/agency/agencies.php:68 ../templates/agency/agency.php:68
+#: ../templates/agency/agency.php:179 ../templates/agency/archive-agent.php:66
+#: ../templates/agency/single-agent.php:72
+msgid "Properties"
+msgstr ""
+
+#: ../templates/agency/agencies.php:70 ../templates/agency/agency.php:70
+#: ../templates/agency/agency.php:112 ../templates/agency/agency.php:181
+#: ../templates/agency/archive-agent.php:68
+#: ../templates/agency/single-agent.php:74
+msgid "Property"
+msgstr ""
+
+#: ../templates/agency/agencies.php:84 ../templates/agency/agency.php:195
+#: ../templates/agency/archive-agent.php:82
+msgid "Call:"
+msgstr ""
+
+#: ../templates/agency/agency.php:96
+msgid "Agency Info"
+msgstr ""
+
+#: ../templates/agency/agency.php:109
+msgid "Agents"
+msgstr ""
+
+#: ../templates/agency/agency.php:218
+msgid "Explore More Agents"
+msgstr ""
+
+#: ../templates/agency/agency.php:372 ../templates/agency/single-agent.php:303
+msgid "Explore More Property"
+msgstr ""
+
+#: ../templates/agency/single-agent.php:104
+msgid "Agent Info"
+msgstr ""
+
+#: ../templates/author.php:12
+msgid "Profile"
+msgstr ""
+
+#: ../templates/author.php:14
+msgid "Who we are &amp; our mission"
+msgstr ""
+
+#: ../templates/author.php:76
+msgid "Call"
+msgstr ""
+
+#: ../templates/author.php:107
+msgid "Bio"
+msgstr ""
+
+#: ../templates/dashboard.php:21
+msgid "Dashboard Navigation"
+msgstr ""
+
+#: ../templates/dashboard.php:78 ../templates/single/comments-form.php:129
+#: ../templates/single/listing-single-temp-init.php:919
+msgid "Messages"
+msgstr ""
+
+#: ../templates/dashboard.php:94
+#: ../templates/listing-submit-form/contact-information.php:49
+#: ../templates/listing-submit-form/edit/contact-information.php:49
+msgid "Agent"
+msgstr ""
+
+#: ../templates/dashboard.php:108 ../templates/dashboard/listings.php:4
+msgid "My Listings"
+msgstr ""
+
+#: ../templates/dashboard.php:115 ../templates/dashboard/bookmarked.php:4
+msgid "Bookmarked Listings"
+msgstr ""
+
+#: ../templates/dashboard/agency.php:96 ../templates/dashboard/agent.php:151
+msgid "No agency found"
+msgstr ""
+
+#: ../templates/dashboard/agency.php:143 ../templates/dashboard/agent.php:65
+#: ../templates/dashboard/editagency.php:85
+#: ../templates/dashboard/editagent.php:85
+#: ../templates/listing-submit-form/edit/featured-image.php:23
+#: ../templates/listing-submit-form/edit/floor-plan.php:53
+#: ../templates/listing-submit-form/edit/gallery-image.php:30
+#: ../templates/listing-submit-form/edit/video-link.php:27
+#: ../templates/listing-submit-form/featured-image.php:12
+#: ../templates/listing-submit-form/gallery-image.php:10
+#: ../templates/listing-submit-form/video-link.php:10
+msgid "Drop files here to upload"
+msgstr ""
+
+#: ../templates/dashboard/agency.php:149
+msgid "Add agency"
+msgstr ""
+
+#: ../templates/dashboard/agent.php:71
+msgid "Add agent"
+msgstr ""
+
+#: ../templates/dashboard/agent.php:77
+msgid "Agent list"
+msgstr ""
+
+#: ../templates/dashboard/bookmarked.php:38
+msgid " / "
+msgstr ""
+
+#: ../templates/dashboard/changepassword.php:4
+msgid "Change Your Password"
+msgstr ""
+
+#: ../templates/dashboard/changepassword.php:8
+msgid "Old Password"
+msgstr ""
+
+#: ../templates/dashboard/changepassword.php:18
+msgid "Confirm password"
+msgstr ""
+
+#: ../templates/dashboard/changepassword.php:24
+msgid "Save Changes"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:12
+msgid "Your Current Package: "
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:28
+msgid "Your Current Package"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:42
+msgid "Currently No Package Selected"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:57
+msgid "Listings Included"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:67
+msgid "Listings Remaining"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:77
+msgid "Total Review"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:97
+msgid "Images / per listing"
+msgstr ""
+
+#: ../templates/dashboard/dashboard.php:108
+msgid "Ends On"
+msgstr ""
+
+#: ../templates/dashboard/editagency.php:91
+#: ../templates/dashboard/editagent.php:91
+msgid "Update"
+msgstr ""
+
+#: ../templates/dashboard/listings.php:32
+msgid "Pending"
+msgstr ""
+
+#: ../templates/dashboard/listings.php:51
+msgid "Price: from "
+msgstr ""
+
+#: ../templates/dashboard/listings.php:91
+msgid "No Listing Found"
+msgstr ""
+
+#: ../templates/dashboard/message.php:4
+msgid "Message Inbox"
+msgstr ""
+
+#: ../templates/dashboard/message.php:46
+msgid "No message found"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:3
+msgid "My Account"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:11
+msgid "You are a cheater"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:66
+msgid "Change Avatar"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:79
+msgid " Drop files here to upload"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:106
+msgid "Selected Package"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:120
+msgid "No package Selected"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:138
+#: ../templates/listing-submit-form/edit/location-information.php:41
+#: ../templates/listing-submit-form/location.php:31
+msgid "City"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:143
+msgid "State"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:148
+msgid "Zip"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:153
+msgid "About"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:157
+msgid "Social Accounts"
+msgstr ""
+
+#: ../templates/dashboard/profile.php:177
+msgid "Instagram"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:7
+#: ../templates/listing-submit-form/edit/general-information.php:7
+msgid "Property Title"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:59
+#: ../templates/listing-submit-form/edit/general-information.php:59
+msgid "199"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:64
+#: ../templates/listing-submit-form/edit/general-information.php:64
+msgid "monthly"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:74
+#: ../templates/listing-submit-form/edit/general-information.php:74
+msgid "sqft"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:78
+#: ../templates/listing-submit-form/basic-information.php:79
+#: ../templates/listing-submit-form/edit/general-information.php:78
+#: ../templates/listing-submit-form/edit/general-information.php:79
+#: ../widgets/resido-sidebar-filter.php:50
+#: ../widgets/resido-sidebar-search.php:71
+#: ../widgets/resido-sidebar-search.php:384
+msgid "Bedrooms"
+msgstr ""
+
+#: ../templates/listing-submit-form/basic-information.php:83
+#: ../templates/listing-submit-form/basic-information.php:84
+#: ../templates/listing-submit-form/edit/general-information.php:83
+#: ../templates/listing-submit-form/edit/general-information.php:84
+msgid "Bathrooms"
+msgstr ""
+
+#: ../templates/listing-submit-form/business-information.php:2
+#: ../templates/listing-submit-form/edit/business-information.php:2
+msgid "Business information"
+msgstr ""
+
+#: ../templates/listing-submit-form/business-information.php:11
+#: ../templates/listing-submit-form/edit/business-information.php:11
+msgid "Mobile"
+msgstr ""
+
+#: ../templates/listing-submit-form/business-information.php:17
+#: ../templates/listing-submit-form/edit/business-information.php:17
+msgid "Website"
+msgstr ""
+
+#: ../templates/listing-submit-form/business-information.php:24
+#: ../templates/listing-submit-form/edit/business-information.php:24
+msgid "Fax No"
+msgstr ""
+
+#: ../templates/listing-submit-form/contact-information.php:2
+#: ../templates/listing-submit-form/edit/contact-information.php:2
+msgid "Contact Information"
+msgstr ""
+
+#: ../templates/listing-submit-form/contact-information.php:17
+#: ../templates/listing-submit-form/edit/contact-information.php:17
+msgid "Phone (optional)"
+msgstr ""
+
+#: ../templates/listing-submit-form/contact-information.php:23
+#: ../templates/listing-submit-form/edit/contact-information.php:23
+msgid "Select"
+msgstr ""
+
+#: ../templates/listing-submit-form/contact-information.php:63
+#: ../templates/listing-submit-form/edit/contact-information.php:63
+msgid "No Agent Selected"
+msgstr ""
+
+#: ../templates/listing-submit-form/details-information.php:2
+#: ../templates/listing-submit-form/edit/listing-amenity.php:2
+msgid "Detailed Information"
+msgstr ""
+
+#: ../templates/listing-submit-form/details-information.php:31
+#: ../templates/listing-submit-form/edit/listing-amenity.php:31
+msgid "Listing Amenity"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/additional-details.php:2
+msgid "Additional Information"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/additional-details.php:21
+msgid "Value"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/featured-image.php:6
+#: ../templates/listing-submit-form/featured-image.php:6
+msgid "Upload Gallery"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/floor-plan.php:41
+msgid "Upload Media"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/gallery-image.php:2
+#: ../templates/listing-submit-form/gallery-image.php:2
+#: ../templates/single/listing-single-temp-init.php:419
+msgid "Gallery"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/location-information.php:18
+#: ../templates/listing-submit-form/location.php:6
+msgid "Country"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/location-information.php:86
+#: ../templates/listing-submit-form/location.php:73
+msgid "Latitude"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/location-information.php:93
+#: ../templates/listing-submit-form/location.php:80
+msgid "Longitude"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/video-link.php:2
+#: ../templates/listing-submit-form/edit/video-link.php:31
+#: ../templates/listing-submit-form/video-link.php:14
+msgid "Video Link"
+msgstr ""
+
+#: ../templates/listing-submit-form/edit/video-link.php:33
+msgid "Video iFrame"
+msgstr ""
+
+#: ../templates/listing-submit-form/location.php:33
+msgid "No city selected"
+msgstr ""
+
+#: ../templates/listing-submit-form/video-link.php:2
+msgid "Video"
+msgstr ""
+
+#: ../templates/listing-submit-form/video-link.php:16
+msgid "Video embed iFrame"
+msgstr ""
+
+#: ../templates/listing-submit-form/video-link.php:17
+msgid ""
+"use this field for iframe if you want to show the video on the same page"
+msgstr ""
+
+#: ../templates/loop/map-pagination.php:10
+msgid "Read More"
+msgstr ""
+
+#: ../templates/loop/shorting.php:36
+msgid "Showing "
+msgstr ""
+
+#: ../templates/loop/shorting.php:40
+msgid " of "
+msgstr ""
+
+#: ../templates/loop/shorting.php:41
+msgid " Results"
+msgstr ""
+
+#: ../templates/loop/shorting.php:51
+msgid "New Listings"
+msgstr ""
+
+#: ../templates/loop/shorting.php:53
+msgid "Old Listings"
+msgstr ""
+
+#: ../templates/loop/shorting.php:55
+msgid "High Rated"
+msgstr ""
+
+#: ../templates/single-rlisting.php:195
+#: ../templates/single/header-banner-1.php:40
+msgid "Share"
+msgstr ""
+
+#: ../templates/single-rlisting.php:205
+msgid "Saved"
+msgstr ""
+
+#: ../templates/single-rlisting.php:217
+msgid "compare"
+msgstr ""
+
+#: ../templates/single-rlisting.php:217
+msgid "Add to Compare"
+msgstr ""
+
+#: ../templates/single/business-info.php:4
+msgid "Listing Info"
+msgstr ""
+
+#: ../templates/single/business-info.php:94
+msgid "Follow Us"
+msgstr ""
+
+#: ../templates/single/comments-form.php:15
+#: ../templates/single/listing-single-temp-init.php:805
+msgid "Write a Review"
+msgstr ""
+
+#: ../templates/single/comments-form.php:31
+#: ../templates/single/listing-single-temp-init.php:823
+msgid "Service?"
+msgstr ""
+
+#: ../templates/single/comments-form.php:51
+#: ../templates/single/listing-single-temp-init.php:843
+msgid "Price?"
+msgstr ""
+
+#: ../templates/single/comments-form.php:70
+#: ../templates/single/listing-single-temp-init.php:862
+msgid "Quality?"
+msgstr ""
+
+#: ../templates/single/comments-form.php:89
+#: ../templates/single/listing-single-temp-init.php:881
+msgid "Location?"
+msgstr ""
+
+#: ../templates/single/comments-form.php:146
+#: ../templates/single/listing-single-temp-init.php:936
+msgid "Submit Review"
+msgstr ""
+
+#: ../templates/single/comments-template.php:16
+#: ../templates/single/listing-single-temp-init.php:739
+msgid " Reviews"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:26
+#: ../templates/single/header-banner-1.php:30
+#: ../templates/single/header-banner-1.php:32
+msgid "Favorite"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:53
+msgid "Review"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:86
+msgid "Very Good"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:88
+msgid "reviewers rated"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:99
+msgid "Services"
+msgstr ""
+
+#: ../templates/single/header-banner-1.php:163
+msgid "Call Now"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:22
+msgid "Share:"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:107
+msgid "Detail & Features"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:188
+msgid "Ameneties"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:238
+#: ../templates/single/listing-single-temp-init.php:271
+msgid "Property video"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:460
+#: ../templates/single/rating-overview.php:8
+msgid "out of 5.0"
+msgstr ""
+
+#: ../templates/single/listing-single-temp-init.php:597
+msgid "Nearby"
+msgstr ""
+
+#: ../templates/single/listing-tags.php:8
+msgid "Tags"
+msgstr ""
+
+#: ../templates/single/statics-info.php:4
+msgid "Statics Info"
+msgstr ""
+
+#: ../templates/single/statics-info.php:17
+msgid "Rating"
+msgstr ""
+
+#: ../templates/single/statics-info.php:42
+msgid "Bookmark"
+msgstr ""
+
+#: ../templates/single/statics-info.php:72
+msgid "Comments"
+msgstr ""
+
+#: ../templates/single/verified-listing.php:6
+msgid " Verified Listing"
+msgstr ""
+
+#: ../templates/taxonomy-listings.php:21
+msgid "Listings"
+msgstr ""
+
+#: ../templates/taxonomy-listings.php:23
+msgid "Who we are and our mission"
+msgstr ""
+
+#: ../widgets/listing-sidebar.php:17 ../widgets/listing-sidebar.php:20
+msgid "Resido Listing Area"
+msgstr ""
+
+#: ../widgets/listing-sidebar.php:40 ../widgets/resido-sidebar-filter.php:57
+msgid "Label of your checkbox variable"
+msgstr ""
+
+#: ../widgets/listing-sidebar.php:85
+msgid "Keyword"
+msgstr ""
+
+#: ../widgets/listing-sidebar.php:99 ../widgets/resido-sidebar-search.php:200
+msgid "Where"
+msgstr ""
+
+#: ../widgets/listing-sidebar.php:164
+msgid "Radius around"
+msgstr ""
+
+#: ../widgets/resido-agent-enquiry.php:19 ../widgets/resido-calculation.php:19
+#: ../widgets/resido-enquiry-form.php:19
+#: ../widgets/resido-featured-listing.php:19
+#: ../widgets/resido-recent-listing.php:19
+msgid "Latest CPT's & Posts."
+msgstr ""
+
+#: ../widgets/resido-agent-enquiry.php:20
+#: ../widgets/resido-agent-enquiry.php:63
+msgid "Resido Agent Enquiry Widget"
+msgstr ""
+
+#: ../widgets/resido-agent-enquiry.php:50 ../widgets/resido-enquiry-form.php:50
+msgid "Enquiry Widget"
+msgstr ""
+
+#: ../widgets/resido-agent-enquiry.php:192
+#: ../widgets/resido-calculation.php:198 ../widgets/resido-enquiry-form.php:135
+#: ../widgets/resido-featured-listing.php:162
+#: ../widgets/resido-recent-listing.php:153
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:20
+msgid "Resido Calculation Widget"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:50
+msgid "Calculation Widget"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:51
+msgid "View your Interest Rate"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:123
+msgid "Result"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:127
+msgid "Monthly Payment"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:131
+msgid "Amount With Down Payment"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:135
+msgid "Amount Without Down Payment"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:139
+msgid "Interest Amount"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:202
+msgid "Sub Title:"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:206
+msgid "Sale Price:"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:210
+msgid "Down Payment:"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:214
+msgid "Loan Term:"
+msgstr ""
+
+#: ../widgets/resido-calculation.php:218 ../widgets/resido-calculation.php:222
+msgid "Interest Rate:"
+msgstr ""
+
+#: ../widgets/resido-enquiry-form.php:138
+msgid "Shortcode:"
+msgstr ""
+
+#: ../widgets/resido-featured-listing.php:20
+msgid "Resido Featured Property"
+msgstr ""
+
+#: ../widgets/resido-featured-listing.php:50
+msgid "Featured Property"
+msgstr ""
+
+#: ../widgets/resido-featured-listing.php:166
+#: ../widgets/resido-recent-listing.php:157
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../widgets/resido-featured-listing.php:171
+#: ../widgets/resido-recent-listing.php:162
+msgid "Display post date?"
+msgstr ""
+
+#: ../widgets/resido-recent-listing.php:20
+msgid "Resido Recent Listings"
+msgstr ""
+
+#: ../widgets/resido-recent-listing.php:50
+msgid "Recent Property"
+msgstr ""
+
+#: ../widgets/resido-sidebar-filter.php:21
+msgid "Resido Listing Filter"
+msgstr ""
+
+#: ../widgets/resido-sidebar-filter.php:89
+msgid "Close Filter"
+msgstr ""
+
+#: ../widgets/resido-sidebar-filter.php:101
+msgid "Search by space name…"
+msgstr ""
+
+#: ../widgets/resido-sidebar-search.php:24
+msgid "Resido Listing Search"
+msgstr ""
+
+#: ../widgets/resido-sidebar-search.php:62
+msgid "Search placeholder"
+msgstr ""
+
+#: ../widgets/resido-sidebar-search.php:68
+msgid "Enable Bedrooms"
+msgstr ""
+
+#: ../widgets/resido-sidebar-search.php:95
+#: ../widgets/resido-sidebar-search.php:442
+msgid "Features"
+msgstr ""
+
+#: ../widgets/resido-sidebar-search.php:423
+msgid " Bedrooms"
+msgstr ""

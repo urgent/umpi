@@ -1,0 +1,20 @@
+{
+    "name": "shahin/smartdatasoft",
+    "description": "A tutorial plugin for SmartDataSoft",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Shahin Alam",
+            "email": "shahin@smartdatasoft.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files": []
+    }
+}

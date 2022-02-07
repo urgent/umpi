@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Resido Compare\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-24 19:42+0600\n"
+"PO-Revision-Date: 2020-02-24 19:42+0600\n"
+"Last-Translator: \n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_attr_e;"
+"esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../includes/resido-comapre-class-activate.php:16
+msgid "Comparing"
+msgstr ""
+
+#: ../includes/resido-comapre-class-genarals.php:18
+msgid "Compare Vehicles:"
+msgstr ""
+
+#: ../includes/resido-comapre-class-settings.php:11
+msgid "Compare Settings"
+msgstr ""
+
+#: ../includes/resido-comapre-class-settings.php:14
+msgid "General"
+msgstr ""
+
+#: ../includes/class-element.php:74 ../includes/class-element.php:87
+msgid "COMPARE"
+msgstr ""
+
+#: ../includes/class-element.php:81
+msgid "compare"
+msgstr ""
+
+#: ../includes/class-shortcode.php:19 ../templates/compare-slide.php:24
+msgid "FUEL TYPE:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:22 ../templates/compare-slide.php:26
+msgid "TRANSMission:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:25 ../templates/compare-slide.php:29
+msgid "Int. Color:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:28 ../templates/compare-slide.php:27
+msgid "Drive Type:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:31
+msgid "Car Milage:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:75
+msgid "ALL-WHEEL DRIVE"
+msgstr ""
+
+#: ../includes/class-shortcode.php:77
+msgid "FOUR-WHEEL DRIVE"
+msgstr ""
+
+#: ../includes/class-shortcode.php:79
+msgid "FRONT-WHEEL DRIVE"
+msgstr ""
+
+#: ../includes/class-shortcode.php:81
+msgid "REAR-WHEEL DRIVE"
+msgstr ""
+
+#: ../includes/class-shortcode.php:85
+msgid "Automatic"
+msgstr ""
+
+#: ../includes/class-shortcode.php:87
+msgid "Manual"
+msgstr ""
+
+#: ../includes/class-shortcode.php:89
+msgid "Automated"
+msgstr ""
+
+#: ../includes/class-shortcode.php:91
+msgid "Variable"
+msgstr ""
+
+#: ../includes/class-shortcode.php:95
+msgid "Gasoline"
+msgstr ""
+
+#: ../includes/class-shortcode.php:97
+msgid "Diesel"
+msgstr ""
+
+#: ../includes/class-shortcode.php:99
+msgid "CNG"
+msgstr ""
+
+#: ../includes/class-shortcode.php:101
+msgid "LP"
+msgstr ""
+
+#: ../includes/class-shortcode.php:103
+msgid "Bio-diesel"
+msgstr ""
+
+#: ../includes/class-shortcode.php:105
+msgid "Ethanol"
+msgstr ""
+
+#: ../includes/class-shortcode.php:128
+msgid "Just Arrived:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:132 ../includes/class-shortcode.php:149
+msgid "HP:"
+msgstr ""
+
+#: ../includes/class-shortcode.php:145
+msgid "Great Deal!"
+msgstr ""
+
+#: ../includes/class-shortcode.php:185
+msgid "Add To Cart"
+msgstr ""
+
+#: ../settings/general.php:4
+msgid "General Settings"
+msgstr ""
+
+#: ../settings/general.php:9
+msgid "Comparing Layout Style"
+msgstr ""
+
+#: ../settings/general.php:20
+msgid "Select Compare Result Page"
+msgstr ""
+
+#: ../settings/general.php:33
+msgid "Not Found Text"
+msgstr ""
+
+#: ../settings/general.php:36
+msgid "Not Found Any Car To Compare"
+msgstr ""
+
+#: ../templates/compare-slide.php:20
+msgid "Price:"
+msgstr ""
+
+#: ../templates/compare-slide.php:21
+msgid "Make:"
+msgstr ""
+
+#: ../templates/compare-slide.php:22
+msgid "Model:"
+msgstr ""
+
+#: ../templates/compare-slide.php:23
+msgid "MILEAGE:"
+msgstr ""
+
+#: ../templates/compare-slide.php:25
+msgid "YEAR:"
+msgstr ""
+
+#: ../templates/compare-slide.php:28
+msgid "Color:"
+msgstr ""
+
+#: ../templates/compare-slide.php:30
+msgid "VIN:"
+msgstr ""
+
+#: ../templates/compare-slide.php:31
+msgid "Engine:"
+msgstr ""
+
+#: ../templates/compare-slide.php:32
+msgid "Stock number:"
+msgstr ""
+
+#: ../templates/compare-slide.php:33
+msgid "Features & Options:"
+msgstr ""
