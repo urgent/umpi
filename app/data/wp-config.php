@@ -1,4 +1,7 @@
 <?php
+ini_set('php_post_max_size','64MB');
+ini_set('php_max_execution_time','300');
+ini_set('max_upload_size','32M');
 /**
  * The base configuration for WordPress
  *
